@@ -1,0 +1,53 @@
+* {
+    width: auto;
+    font-family: monospace;
+}
+
+.one{
+    padding: 2rem 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h2{
+    font-family: monospace;
+}
+
+label{
+    padding-top: 1.5rem;
+    text-align: center;
+    font-weight: 700;
+    font-size: larger;
+}
+
+input{
+    font-family: monospace;
+    
+}
+#text{
+    width: 20rem;
+}
+.button{
+    color: black;
+    font-family: monospace;
+    width: auto;
+    height: auto;
+    border: 0.2rem dashed solid black;
+    border-radius: 0.8rem;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: lightgray;
+    transition: 0.8s;
+}
+
+
+.result{
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    font-weight: 800;
+    font-size: 1rem;
+}
+
