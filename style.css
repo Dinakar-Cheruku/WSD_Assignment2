@@ -36,18 +36,30 @@ input{
     border: 0.2rem dashed solid black;
     border-radius: 0.8rem;
     cursor: pointer;
+    background-color: darkgray;
 }
 .button:hover {
     background-color: lightgray;
     transition: 0.8s;
 }
 
-
 .result{
     display: flex;
     justify-content: center;
     font-family: monospace;
     font-weight: 800;
-    font-size: 1rem;
+    font-size: 2rem;
+    border: 0.2rem dashed gray;
+    border-radius: 2rem;
 }
 
+.container{
+    padding-top: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-top: 0.2rem solid black;
+}
+
+body{
+    background-color: bisque;
+}
